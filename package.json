@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --check \"./**/*.{js,jsx,ts,tsx}\" --no-error-on-unmatched-pattern",
     "format:write": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" --no-error-on-unmatched-pattern",
+    "rename": "npx react-native-rename",
     "preinstall": "npx only-allow yarn",
     "prepare": "husky install"
   },
