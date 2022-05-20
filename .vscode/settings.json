@@ -25,4 +25,7 @@
   ],
   "eslint.format.enable": true,
   "files.eol": "\n",
+  "i18n-ally.localesPaths": [
+    "./src/configuration/translations/resources"
+  ],
 }
