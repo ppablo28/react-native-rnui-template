@@ -64,4 +64,5 @@ buck-out/
 .eslintcache
 
 # Development
+dist/
 TODO.txt
