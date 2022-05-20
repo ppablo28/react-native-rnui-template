@@ -19,11 +19,18 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/native": "^5.9.8",
+    "@react-navigation/stack": "^5.14.9",
     "i18next": "^21.8.3",
     "react": "17.0.2",
     "react-i18next": "^11.16.9",
     "react-native": "^0.68.0-0",
-    "react-native-localize": "^2.2.1"
+    "react-native-gesture-handler": "^2.3.2",
+    "react-native-localize": "^2.2.1",
+    "react-native-reanimated": "^2.5.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -74,7 +81,14 @@
       "core-ios",
       "jest",
       "react",
-      "react-test-renderer"
+      "react-test-renderer",
+      "animation",
+      "screens",
+      "safe-area",
+      "gestures",
+      "masked-view",
+      "navigation/native",
+      "navigation/stack"
     ],
     "bundle": {
       "entryPath": "./index.js",
