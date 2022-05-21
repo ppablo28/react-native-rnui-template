@@ -60,4 +60,9 @@ buck-out/
 /ios/Pods/
 /vendor/bundle/
 
+# ESLint
 .eslintcache
+
+# Development
+dist/
+TODO.txt
